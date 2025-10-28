@@ -1,0 +1,36 @@
+.knowAssortment {
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+  margin-top: 46px;
+}
+
+.knowAssortment-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.knowAssortment-text {
+  font-size: 20px;
+  opacity: 60%;
+}
+
+.knowAssortment-blocks {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 62px;
+}
+
+.knowAssortment-block p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.knowAssortment-block-img {
+  width: 381px;
+  height: 480px;
+  background-size: cover;
+  margin-bottom: 30px;
+  border-radius: 30px;
+}
