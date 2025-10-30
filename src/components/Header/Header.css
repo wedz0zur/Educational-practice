@@ -11,7 +11,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 400px;
+  width: 600px;
   font-size: 18px;
 }
 
@@ -46,4 +46,13 @@ a {
 .header-icons img {
   width: 23px;
   height: 18px;
+}
+
+.add-btn{
+  width: 130px;
+  height: 40px;
+  background-color: #b88e2f;
+  border: 0;
+  cursor: pointer;
+  font-size: 12px;
 }

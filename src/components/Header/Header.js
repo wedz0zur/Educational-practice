@@ -19,7 +19,7 @@ function Header() {
           <a href="#">Shop</a>
           <a href="#">About</a>
           <a href="#">Contact</a>
-          <button onClick={() => setModalOpen(true)}>Добавить продукт</button>
+          <button className="add-btn" onClick={() => setModalOpen(true)}>Добавить продукт</button>
         </nav>
         <div className="header-icons">
           <img src={profile} alt="" className="icon" />

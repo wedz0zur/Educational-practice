@@ -13,6 +13,8 @@ export default function AllProducts() {
   return (
     <div className="all-products">
       {products.length === 0 && <p>Продукты отсутствуют</p>}
+      <h1>Our Products</h1>
+      <div className="products">
       {products.map((product, index) => (
         <ProductCard
           key={index}
@@ -22,6 +24,8 @@ export default function AllProducts() {
           description={product.description}
         />
       ))}
+      </div>
+      
     </div>
   );
 }
