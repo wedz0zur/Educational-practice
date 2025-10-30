@@ -1,0 +1,38 @@
+.funiro-container {
+    width: 100%;
+    padding: 0 10%;
+}
+
+.funiro-title{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.funiro-text{
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 50%;
+    text-align: center;
+    margin-top: 67px;
+}
+
+.funiro-grid {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-column div {
+    display: flex;
+    gap: 20px;
+}
+
+.right-column div {
+    display: flex;
+    gap: 20px;
+}
+
+
+.center-image {}
