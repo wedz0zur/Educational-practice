@@ -1,0 +1,79 @@
+footer {
+  border-top: 1px solid #e0e0e0;
+  margin-top: 50px;
+  padding: 48px 15%;
+}
+
+.div-footer-top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 48px;
+}
+
+.funiro {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.text-gray {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 50%;
+}
+
+.a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  margin-top: 50px;
+  font-weight: 500;
+}
+
+.newsletter-input-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 60px;
+}
+
+.div-footer-top input[type="email"] {
+  border: none;
+  border-bottom: 1px solid #000;
+  padding: 5px 30px 5px 0;
+  font-size: 14px;
+  background: transparent;
+  outline: none;
+  width: 250px;
+  transition: border-color 0.3s;
+}
+
+.div-footer-top input[type="email"]::placeholder {
+  color: #000;
+  opacity: 0.5;
+  font-weight: 500;
+}
+
+.div-footer-top input[type="email"]:focus {
+  border-bottom-color: #666;
+}
+
+.newsletter-button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0;
+}
+
+.last-text{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 35px;
+}

@@ -1,6 +1,5 @@
 .product-card {
   width: 285px;
-  height: 446px;
   background: #fff; 
   cursor: pointer;
 }
@@ -9,16 +8,18 @@
   width: 100%;
   height: 301px;
   object-fit: cover;
+  display: block; /* Важно! Убирает отступ снизу */
+  vertical-align: bottom; /* Дополнительная страховка */
 }
 
 .product-content {
-  width: 285px;
-  height: 145px;
+  width: 100%; /* Вместо 285px */
   padding: 16px;
-  display: block;
   background-color: #f4f5f7;
+  box-sizing: border-box; /* Чтобы padding не увеличивал ширину */
 }
 
+/* Остальные стили без изменений */
 .product-title {
   font-size: 24px;
   font-weight: 600;
@@ -35,4 +36,3 @@
   font-size: 14px;
   color: #666;
 }
-  
