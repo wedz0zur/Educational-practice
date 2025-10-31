@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Educational-practice/static/css/main.9d659c61.css",
-    "main.js": "/Educational-practice/static/js/main.4d521769.js",
+    "main.css": "/Educational-practice/static/css/main.a409e997.css",
+    "main.js": "/Educational-practice/static/js/main.8bcb46e4.js",
     "static/media/newCollectionFon.svg": "/Educational-practice/static/media/newCollectionFon.9f2cafecd74164e15b68.svg",
     "static/media/furnit6.svg": "/Educational-practice/static/media/furnit6.3ec660031c86d2db93da5fcb368c6baf.svg",
     "static/media/furnit7.svg": "/Educational-practice/static/media/furnit7.fcc5f2913b2c6978bc677c855137f37b.svg",
@@ -21,11 +21,11 @@
     "index.html": "/Educational-practice/index.html",
     "static/media/search.svg": "/Educational-practice/static/media/search.76a081fba42c83c9c93d0637a345fcba.svg",
     "static/media/heart.svg": "/Educational-practice/static/media/heart.327aea3d6967cae0d79ad50df9b0ceab.svg",
-    "main.9d659c61.css.map": "/Educational-practice/static/css/main.9d659c61.css.map",
-    "main.4d521769.js.map": "/Educational-practice/static/js/main.4d521769.js.map"
+    "main.a409e997.css.map": "/Educational-practice/static/css/main.a409e997.css.map",
+    "main.8bcb46e4.js.map": "/Educational-practice/static/js/main.8bcb46e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d659c61.css",
-    "static/js/main.4d521769.js"
+    "static/css/main.a409e997.css",
+    "static/js/main.8bcb46e4.js"
   ]
 }
