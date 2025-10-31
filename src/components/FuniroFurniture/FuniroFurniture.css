@@ -1,38 +1,167 @@
 .funiro-container {
-    width: 100%;
-    padding: 0 10%;
+  width: 100%;
+  padding: 0 10%;
+  box-sizing: border-box;
 }
 
-.funiro-title{
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
+.funiro-title {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
 }
 
-.funiro-text{
-    font-size: 20px;
-    font-weight: 600;
-    opacity: 50%;
-    text-align: center;
-    margin-top: 67px;
+.funiro-text {
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 50%;
+  text-align: center;
+  margin-top: 67px;
 }
 
 .funiro-grid {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .left-column div {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .right-column div {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
+.center-image {
+  flex-shrink: 0;
+}
 
-.center-image {}
+.funiro-grid img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .funiro-container {
+    padding: 0 5%;
+  }
+
+  .funiro-title {
+    font-size: 32px;
+  }
+
+  .funiro-text {
+    font-size: 18px;
+    margin-top: 50px;
+  }
+
+  .left-column div,
+  .right-column div {
+    gap: 15px;
+  }
+
+  .funiro-grid img {
+    max-height: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .funiro-grid {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .funiro-title {
+    font-size: 28px;
+  }
+
+  .funiro-text {
+    font-size: 16px;
+    margin-top: 40px;
+  }
+
+  .left-column,
+  .right-column {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .left-column div,
+  .right-column div {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .center-image {
+    order: -1;
+  }
+
+  .funiro-grid img {
+    max-height: 120px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .funiro-container {
+    padding: 0 4%;
+  }
+
+  .funiro-title {
+    font-size: 22px;
+  }
+
+  .funiro-text {
+    font-size: 14px;
+    margin-top: 30px;
+  }
+
+  .funiro-grid {
+    gap: 10px;
+  }
+
+  .left-column,
+  .right-column {
+    gap: 8px;
+  }
+
+  .left-column div,
+  .right-column div {
+    gap: 8px;
+  }
+
+  .funiro-grid img {
+    max-height: 80px;
+    border-radius: 8px;
+  }
+
+  .center-image img {
+    max-height: 100px;
+  }
+}
+
+@media (max-width: 360px) {
+  .funiro-grid img {
+    max-height: 70px;
+  }
+
+  .center-image img {
+    max-height: 90px;
+  }
+
+  .funiro-title {
+    font-size: 20px;
+  }
+
+  .funiro-text {
+    font-size: 13px;
+    margin-top: 25px;
+  }
+}

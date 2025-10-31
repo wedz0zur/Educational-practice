@@ -72,8 +72,106 @@ footer {
   padding: 0;
 }
 
-.last-text{
-    font-size: 16px;
-    font-weight: 500;
-    margin-top: 35px;
+.last-text {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 35px;
+}
+
+@media (max-width: 1024px) {
+  footer {
+    padding: 40px 8%;
+  }
+
+  .div-footer-top {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .div-footer-top > div {
+    flex: 1 1 45%;
+    min-width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 30px 5%;
+    margin-top: 40px;
+  }
+
+  .div-footer-top {
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 30px;
+  }
+
+  .div-footer-top > div {
+    flex: 1 1 100%;
+  }
+
+  .funiro {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .a {
+    margin-top: 30px;
+  }
+
+  .newsletter-input-container {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .div-footer-top input[type="email"] {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .last-text {
+    margin-top: 25px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  footer {
+    padding: 20px 4%;
+    margin-top: 30px;
+  }
+
+  .div-footer-top {
+    padding-bottom: 20px;
+    gap: 25px;
+  }
+
+  .funiro {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .text-gray {
+    font-size: 14px;
+  }
+
+  .a {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .newsletter-input-container {
+    margin-top: 20px;
+  }
+
+  .div-footer-top input[type="email"] {
+    font-size: 13px;
+    max-width: 250px;
+  }
+
+  .last-text {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+  }
 }

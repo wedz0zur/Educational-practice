@@ -1,7 +1,7 @@
 import "./KnowAssortment.css";
-import knowAssortment_img_1 from '../../images/knowAssortment_img1.svg'
-import knowAssortment_img_2 from '../../images/knowAssortment_img2.svg'
-import knowAssortment_img_3 from '../../images/knowAssortment_img3.svg'
+import knowAssortment_img_1 from "../../images/knowAssortment_img1.svg";
+import knowAssortment_img_2 from "../../images/knowAssortment_img2.svg";
+import knowAssortment_img_3 from "../../images/knowAssortment_img3.svg";
 
 function KnowAssortment() {
   return (
@@ -12,15 +12,27 @@ function KnowAssortment() {
       </p>
       <div className="knowAssortment-blocks">
         <div className="knowAssortment-block">
-          <img className="knowAssortment-block-img" src={knowAssortment_img_1}></img>
+          <img
+            className="knowAssortment-block-img"
+            src={knowAssortment_img_1}
+            alt="Dining furniture"
+          ></img>
           <p>Dining</p>
         </div>
-        <div className="knowAssortment-block" >
-          <img className="knowAssortment-block-img" src={knowAssortment_img_2}></img>
+        <div className="knowAssortment-block">
+          <img
+            className="knowAssortment-block-img"
+            src={knowAssortment_img_2}
+            alt="Living room furniture"
+          ></img>
           <p>Living</p>
         </div>
         <div className="knowAssortment-block">
-          <img className="knowAssortment-block-img" src={knowAssortment_img_3}></img>
+          <img
+            className="knowAssortment-block-img"
+            src={knowAssortment_img_3}
+            alt="Bedroom furniture"
+          ></img>
           <p>Bedroom</p>
         </div>
       </div>

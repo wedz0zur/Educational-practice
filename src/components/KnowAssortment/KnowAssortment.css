@@ -34,3 +34,91 @@
   margin-bottom: 30px;
   border-radius: 30px;
 }
+
+@media (max-width: 1024px) {
+  .knowAssortment {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .knowAssortment-title {
+    font-size: 28px;
+  }
+
+  .knowAssortment-text {
+    font-size: 18px;
+  }
+
+  .knowAssortment-block-img {
+    width: 300px;
+    height: 380px;
+  }
+
+  .knowAssortment-block p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .knowAssortment {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px;
+  }
+
+  .knowAssortment-blocks {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+  }
+
+  .knowAssortment-title {
+    font-size: 24px;
+  }
+
+  .knowAssortment-text {
+    font-size: 16px;
+  }
+
+  .knowAssortment-block-img {
+    width: 350px;
+    height: 400px;
+  }
+
+  .knowAssortment-block p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .knowAssortment {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 20px;
+  }
+
+  .knowAssortment-blocks {
+    margin-top: 30px;
+    gap: 30px;
+  }
+
+  .knowAssortment-title {
+    font-size: 20px;
+  }
+
+  .knowAssortment-text {
+    font-size: 14px;
+  }
+
+  .knowAssortment-block-img {
+    width: 280px;
+    height: 320px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+
+  .knowAssortment-block p {
+    font-size: 16px;
+  }
+}

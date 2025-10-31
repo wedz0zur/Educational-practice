@@ -44,4 +44,101 @@
   cursor: pointer;
   border: 0;
   margin-top: 46px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.new-collection-block-btn:hover {
+  background-color: #a57d28;
+}
+
+@media (max-width: 1024px) {
+  .new-collection {
+    height: 600px;
+  }
+
+  .new-collection-block {
+    width: 550px;
+    height: 400px;
+    padding: 50px;
+    left: 40%;
+  }
+
+  .new-collection-block h1 {
+    font-size: 42px;
+    width: 450px;
+  }
+
+  .new-collection-block-lorem {
+    width: 450px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .new-collection {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .new-collection-block {
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    padding: 40px 30px;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+
+  .new-collection-block h1 {
+    font-size: 36px;
+    width: 100%;
+  }
+
+  .new-collection-block-lorem {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .new-collection-block-btn {
+    width: 200px;
+    height: 60px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .new-collection {
+    height: 400px;
+  }
+
+  .new-collection-block {
+    padding: 30px 20px;
+    border-radius: 20px;
+  }
+
+  .new-collection-block-title {
+    font-size: 16px;
+  }
+
+  .new-collection-block h1 {
+    font-size: 28px;
+  }
+
+  .new-collection-block-lorem {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  .new-collection-block-btn {
+    width: 180px;
+    height: 50px;
+    margin-top: 25px;
+    font-size: 14px;
+  }
 }

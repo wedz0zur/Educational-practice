@@ -1,5 +1,3 @@
-/* Добавьте в AllProducts.css */
-
 .all-products {
   justify-content: center;
   padding: 40px 15%;
@@ -20,7 +18,6 @@ h1 {
   gap: 32px;
 }
 
-/* Стили для пустого состояния */
 .empty-state {
   display: flex;
   flex-direction: column;
@@ -72,7 +69,6 @@ h1 {
   background-color: #333;
 }
 
-/* Анимация загрузки */
 .loading-state {
   display: flex;
   justify-content: center;
@@ -91,6 +87,101 @@ h1 {
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1024px) {
+  .all-products {
+    padding: 40px 8%;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  .products {
+    gap: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .all-products {
+    padding: 30px 5%;
+  }
+
+  h1 {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+
+  .products {
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .empty-state {
+    padding: 40px 20px;
+  }
+
+  .empty-state-icon {
+    font-size: 48px;
+  }
+
+  .empty-state-title {
+    font-size: 20px;
+  }
+
+  .empty-state-description {
+    font-size: 14px;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .all-products {
+    padding: 20px 4%;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .products {
+    gap: 16px;
+  }
+
+  .empty-state {
+    padding: 30px 15px;
+  }
+
+  .empty-state-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .empty-state-title {
+    font-size: 18px;
+  }
+
+  .empty-state-description {
+    font-size: 13px;
+    max-width: 250px;
+  }
+
+  .retry-button {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+
+  .loading-spinner {
+    width: 32px;
+    height: 32px;
+    border-width: 3px;
+  }
 }

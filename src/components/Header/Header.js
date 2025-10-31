@@ -9,25 +9,53 @@ import "./Header.css";
 
 function Header() {
   const [modalOpen, setModalOpen] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen);
+  };
+
+  const closeMobileMenu = () => {
+    setMobileMenuOpen(false);
+  };
+
+  const handleAddProductClick = () => {
+    setModalOpen(true);
+    closeMobileMenu();
+  };
 
   return (
     <>
       <header>
         <img className="logo icon" src={logo} alt="logo" />
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="#">Shop</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-          <button className="add-btn" onClick={() => setModalOpen(true)}>Добавить продукт</button>
+        
+        <button 
+          className={`mobile-menu-btn ${mobileMenuOpen ? 'active' : ''}`}
+          onClick={toggleMobileMenu}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav className={mobileMenuOpen ? 'active' : ''}>
+          <a href="index.html" onClick={closeMobileMenu}>Home</a>
+          <a href="#" onClick={closeMobileMenu}>Shop</a>
+          <a href="#" onClick={closeMobileMenu}>About</a>
+          <a href="#" onClick={closeMobileMenu}>Contact</a>
+          <button className="add-btn" onClick={handleAddProductClick}>
+            Добавить продукт
+          </button>
         </nav>
+        
         <div className="header-icons">
-          <img src={profile} alt="" className="icon" />
-          <img src={search} alt="" className="icon" />
-          <img src={heart} alt="" className="icon" />
-          <img src={basket} alt="" className="icon" />
+          <img src={profile} alt="Profile" className="icon" />
+          <img src={search} alt="Search" className="icon" />
+          <img src={heart} alt="Wishlist" className="icon" />
+          <img src={basket} alt="Basket" className="icon" />
         </div>
       </header>
+      
       {modalOpen && <AddProductModal closeModal={() => setModalOpen(false)} />}
     </>
   );
