@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Educational-practice/static/css/main.9d659c61.css",
+    "main.js": "/Educational-practice/static/js/main.4d521769.js",
+    "static/media/newCollectionFon.svg": "/Educational-practice/static/media/newCollectionFon.9f2cafecd74164e15b68.svg",
+    "static/media/furnit6.svg": "/Educational-practice/static/media/furnit6.3ec660031c86d2db93da5fcb368c6baf.svg",
+    "static/media/furnit7.svg": "/Educational-practice/static/media/furnit7.fcc5f2913b2c6978bc677c855137f37b.svg",
+    "static/media/knowAssortment_img1.svg": "/Educational-practice/static/media/knowAssortment_img1.39728d397a1c8e79828fbcd0315cdf0c.svg",
+    "static/media/furnit1.svg": "/Educational-practice/static/media/furnit1.e78b3c11d6af5ff9e7c9297fa42a5885.svg",
+    "static/media/furnit2.svg": "/Educational-practice/static/media/furnit2.7b43dd94c935d206ea759fffa13a7d53.svg",
+    "static/media/furnit9.svg": "/Educational-practice/static/media/furnit9.7c2e129071358316b23caaf25fa29c0c.svg",
+    "static/media/furnit5.svg": "/Educational-practice/static/media/furnit5.979f33e449e910ee3a065535b8452d4f.svg",
+    "static/media/furnit4.svg": "/Educational-practice/static/media/furnit4.55af2cda38e03f7ef148713b58df2797.svg",
+    "static/media/furnit3.svg": "/Educational-practice/static/media/furnit3.7853626949943d4b3f0e656ed705cf0e.svg",
+    "static/media/knowAssortment_img3.svg": "/Educational-practice/static/media/knowAssortment_img3.1f7e42eaeb146dd9ee2c4e5f086fe9a2.svg",
+    "static/media/furnit8.svg": "/Educational-practice/static/media/furnit8.72f2749e427e73ddb45e48fb3261f95f.svg",
+    "static/media/knowAssortment_img2.svg": "/Educational-practice/static/media/knowAssortment_img2.2924ad0767546b8acd7af979696fb514.svg",
+    "static/media/logo.svg": "/Educational-practice/static/media/logo.77cdd8d2bfc48c5d93b0184aa44fb771.svg",
+    "static/media/basket.svg": "/Educational-practice/static/media/basket.5dbf0f8fc57aaaa3681a75ea97cb9c2f.svg",
+    "static/media/profile.svg": "/Educational-practice/static/media/profile.20ff95e58256d2ff94283562385fdf1f.svg",
+    "index.html": "/Educational-practice/index.html",
+    "static/media/search.svg": "/Educational-practice/static/media/search.76a081fba42c83c9c93d0637a345fcba.svg",
+    "static/media/heart.svg": "/Educational-practice/static/media/heart.327aea3d6967cae0d79ad50df9b0ceab.svg",
+    "main.9d659c61.css.map": "/Educational-practice/static/css/main.9d659c61.css.map",
+    "main.4d521769.js.map": "/Educational-practice/static/js/main.4d521769.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d659c61.css",
+    "static/js/main.4d521769.js"
+  ]
+}
